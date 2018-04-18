@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow: hidden;
+}
+
+.pcMenu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  align-items: center;
+}
+.pcMenu .icon {
+  margin: 10px 10px;
+  transition: 1s;
+  width: 40px;
+  height: 40px;
+}
+.pcMenu .icon.active {
+  color: red;
+  transform: scale(1.4);
+  transition: 1s;
+}
+
+.paintMenu .icon,
+.eraserMenu .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.wrap input{
+    border:1px solid red;
+    position:relative;
+    top:-12px;
+    /* left:20px; */
+  }
+  
